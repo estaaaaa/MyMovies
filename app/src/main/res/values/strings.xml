@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Movies</string>
+    <string name="movieId">Movie ID</string>
+    <string name="movieTitle">Movie Title</string>
+    <string name="movieGenre">Genre</string>
+    <string name="movieYear">Year</string>
+    <string name="movieRating">Rating</string>
+    <string name="btnInsert">INSERT</string>
+    <string name="btnShowList">SHOW LIST</string>
+    <string name="btnFilter">SHOW ALL PG-13 MOVIES</string>
+    <string name="btnUnfilter">SHOW ALL MOVIES</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnDELETE">DELETE</string>
+    <string name="btnCancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="inputMovieTitle">Enter movie title here</string>
+    <string name="inputMovieGenre">Enter genre here</string>
+    <string name="inputMovieYear">Enter year of release here</string>
+    <string-array name="spinnerRating">
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+</resources>
